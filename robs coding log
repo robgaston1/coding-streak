@@ -1,0 +1,169 @@
+# 100 Days Of Code - Log
+
+### Pre-work: December 31, 2016
+
+**Today's Progress**: Decided work on the Simon project for FCC locally on my code editor rather than Codepen. Set up the index.html, the css, and the js file. Created a Github repo, then cloned it on my machine, and committed all the files to it. 
+
+**Thoughts:**So I am technically not starting the 100 days of code until Tuesday, but you can never start too soon if you want to establish a good habit, right? So why wait until Tuesday? There is a new group effort of 100 days of code starting on the 3rd, and I would like to start along with everyone else. One of the things I am bad about is going off and doing things on my own, and one of the things I like about coding is that it can be such a communal effort. I'd like to start with that community aspect now. 
+
+### Pre-work: January, 1, 2017
+
+**Today's Progress**: CS50-did week 2 projects. Worked on the initials program, and also spent time getting the caesar cipher started. Later on I went back to Simon game and worked on the four colored buttons. 
+
+**Thoughts:**Finally was able to get the initials program completed correctly. Mostly had to do with where the line breaks were printing, and that you were looking for a new initial anytime there was a space, but only printing if there was a space but not otherwise. I am stuck right now, because we are being asked to put in a command line argument, an integer, which will be the number that serves as the key for the caesar's cipher. The problem is that argv is an array of strings and I want to use argv[1] as an integer. So I am looking up how to typecast a string into an integer. 
+
+On the Simon game, I was able to get four quardrants of the circle into the correct colors of red, green, blue, and yellow. They are aligned properly, but I need to get some space in between each one. Good progress today but I am still guessing about the design/layout of these buttons. Would be nice to find a good reference about how this should be done. I'll keep looking!
+
+### Pre-work: January 2nd, 2017
+
+**Today's Progress:** Spent the afternoon finishing CS50 week 2 problem set. There was a Caesar and Vigenere Cipher used to create encryption. I passed all automated tests from the class. 
+
+**Thoughts:** I uploaded the Vigenere as a record of my accomplishment, to show that I worked yesterday, and to get an activity streak on github. People would need access to the cs50.h library in order to use the c program. 
+
+### Day 1: January 3, 2017
+
+**Today's Progress**: Simon game! Finally figured out the placement of the red, yellow, green, and blue buttons on the Simon board. I also added the center white circle where the text and buttons go, as well as a black background around that area. I just realized I used an extra dix for that background but it could have easily been a border. 
+
+**Thoughts:** This was really a great accomplishment! I didn't see how I was ever going to get that board designed. I had no idea what to do for the buttons at first, and then was totally scared about the central areas, placing those, getting them in the right place. Now that I've done it, I can't believe it was that easy! I had to push myself through to keep working on it, because I wanted to quit or give up several times. Glad I am going this!!!
+
+**Link to work:** [Github Repo for Simon](https://github.com/robgaston1/Simon.git)
+
+### Day 2: January 4, 2017
+
+**Today's Progress**: Worked on problem set 3 for CS50 this morning. Implementing sort and search in C. It was challenging and I still have more to do tomorrow, probably the day after that as well. Tonight I worked on the JS calculator and got it set up on github. 
+
+**Thoughts**: I am going to have some difficulty with the CS50 materials. I may need to look through some resources that they offer for that, or perhaps post somewhere for help. I am not 100% sure that I implemented the math functionality right for the JS calculator, so it may be time to look up more thoughts on how to do that. 
+
+**Link(s) to work**: [Calculator App](https://github.com/robgaston1/Calculator.git)
+
+
+### Day 3: January 5, 2017
+
+**Today's Progress**: Worked on JS calculator, adding a fun robot using CSS. Worked on CS50, completing both an insertion sort and a binary search. Whew!
+
+**Thoughts** Two opposite ends today! The robot in css was mostly for fun and design learning on my Javascript Calculator. I worked on this first thing this morning for about 30-60 minutes. Then the insertion sort and the binary search were a lot harder. Actually, the code was simpler than I thought, and I had the right idea from the beginning for both. However there either small typos or silly mental errors that made them not work at first. Otherwise, on to the final pset from week 3 of CS50. 
+
+**Link(s) to work**
+1. [Search and sort programs in C](https://github.com/robgaston1/CS50)
+
+### Day 4: January 6, 2017
+
+**Today's Progress**: Worked on Simon doing more formatting, got a start on the JS, making the random number generator. Spent time on CS50, looking at the Game of Fifteen.
+
+**Thoughts** I am starting to get good at multitasking, working on two different sets of problems rather than just one at a time. Meaning I work on one task, and then after one or two sessions, I might switch over to another when I am not making progress. Then I come back to the other one later, and am better able to progress. I have been incorporating the pomodoro, which really helps. It's definitely a good procrastination fighter. I find that if I am able to just imagine what ONE thing I can do, then it makes it easier to start. Sometimes that ONE thing is just looking up how to approach or solve the problem. It take the pressure off. 
+
+### Day 5: January 7, 2017
+
+**Today's Progress**: Started and finished the game of fifteen for CS50 today! It was not as bad as I thought once I just launched into it and got started. I also worked on the Simon game some. For some reason the formatting was messed up, so I had to fix that. There were some other issues, and I finalized, almost, the center area with the game controls. 
+
+**Thoughts**: Again just emphasize using the pomodor technique. It helps me just jump in on one thing, approaching a problem, not making me self responsible for solving it. When all you have to do is commit to working on a problem, then you forget about the goal of fixing it and you just work on it instead. That doesn't make much sense, but it works. Glad to have another week of CS50 done. Thinking about adding one more course, but not sure if that's wise right now. 
+
+### Day 6: January 8, 2017
+
+**Today's Progress**: Worked on Simon today completely. Added functions for each button to change the color when played. Worked with sound some. Cannot get the sound to coordinate and play at the same time as the color change. Downloaded the sound files and also set the "preload" property to auto. Not sure what else to do. Next started working on reading the array and calling those functions in order after a delay. Still working on that. 
+
+**Thoughts**: Frustating today. Not a lot of documentation out there on playing sounds. Will keep looking. Figuring out how to call the function using the setTimeout feature was not working well. Even though I've seen this example in YDKJS, still having a hard time getting all the functions not to execute simultaneously. 
+
+### Day 7: January 9, 2017
+
+**Today's Progress**: Did a lot of back and forth today on Simon. Tweaked the center area some more, getting it just right. Don't think I'll play with anymore. Added some player logic, didn't work, scaled back to just executing one play and then logging to the console whether the player pressed the right or wrong button. Can now expand from there. 
+
+**Thoughts**: Spending a lot of time researching little fundamental things, like how to pull the id from a clicked item, using only the class to set up the event listener and getting the ID from the Event Object. Looking up other basics that I feel like I should know, but I guess that's all part of it. Fortunately I feel like I am remembering more each time, and it's taking me less time to look things up as I go. 
+
+### Day 8: January 10, 2017
+
+**Today's Progress**: Spend a good deal of time on Simon this morning, and then the Collatz recursion algorithm through CS50. After getting the Collatz algorithm, then I went back to Simon. Added several pieces of functionality to the game. Items instituted include the start button, reset functionality, testing for correct buttons from the player, replaying if a wrong press, etc...
+
+**Thoughts**: Today was one step forward then two steps back on Simon. After getting good work done yesterday, today I broke the game when I tried to move forward. So I had to deconstruct everything I did, and then recreate the progress bit by bit. This was a good lesson for me. It doesn't pay to rush ahead and try to do too much. If unsure at all, it makes sense to only add small steps/increments of code and test what happens. I am not saying this is forever, but at my stage of learning, I think it's best to ensure that things are right before getting too far. 
+
+### Day 9: January 11, 2017
+
+**Today's Progress**: Got Simon game almost/basically complete. I searched long for sounds, finally found them and got them added. The game now plays, waits for the user, lets them know if wrong, uses strict mode, and shows winning status at 20 moves. 
+
+**Thoughts**: It was weird to reach a basically functional game. It feels like it just sort of happened or came together all of the suddden. However, I know it was the result of work of many days. The important lesson learned here is that things happen in chunks. A little bit each day, I built a new functionality, or added one piece, or fixed something from before. If I couldn't solve an issue, sometimes I put it on the back burner until I could come back to it later. And when it came time, I was able to solve it. Especially since I knew that so much of the game was done, and that I only needed that piece to finish. 
+
+It does need some polish, so I have done what I just said. I am tabling it for at least a day or two, and then coming back with new energy to tackle it. 
+
+### Day 10: January 12, 2017
+
+**Today's Progress**: Spent time researching and restarting muy portfolio page. Started a new file on brackets and uploading to github. Going to host the page on github and link my other projects to it. 
+
+**Thoughts**: I don't have many thoughts. It is late and it was a struggle to get in the time today. Hard to start the portfolio project again. I am not comfortable with design, and I am shooting for the stars when I should really just aim for something much simpler. 
+
+### Day 11: January 13, 2017
+
+**Today's Progress**: Worked on personal portfolio page. Most of time on images, getting them imported, and figuring out how to lay them out. Spent time with Bootstrap. 
+
+**Thoughts**: Frustrated with bootstrap. It never seems to work the way I think it should or want it to. In looking for information, at least on what I want to do, it seems lacking. 
+
+### Day 12: January 14, 2017
+
+**Today's Progress**: I fixed some more of the formatting issues with my portfolio page. I added contact information at the bottom. I fixed some of the responsiveness issues that existed. Later on, I worked on the weather API project for FCC. I changed the API from darksky to the one recommended by FreeCodeCamp. I moved the files from Codepen to my local editor and then uploaded them to GitHub. Now that the project is not hosted on Codepen anymore, I also added the Geolocation feature to the code. The API call now works, and displays the temperature as well as the condition. I next need to figure out how to display either icons or a background image depending on the weather. 
+
+**Thoughts**: It is funny to think back about how really difficult and frustrating these projects were. I felt like I didn't know what I was doing, and that makes sense, because I really didn't, having never done it before. But now that I have more experience, it's not so initimidating to try and to figure things out. Also, the problems are just a little less frustrating, although they are difficult, I know I can keep trying and figure it out. I can definitely feel the progress, which is a really good thing. 
+
+### Day 13: January 15, 2017
+
+**Today's Progress**: Spent some time in the early early hours of the morning working on the weather app for FCC. Then I started addressing the twitch TV app that I had made before. I imported the code into Brackets and then started to update the API call and the UI. 
+
+**Thoughts**: It's funny to go back to these challenges which were so hard the first time around. It went much better this time, largely thanks to the technique of console logging everything. Logging objects and JSON return data helps so you can see what you are working with. Logging variables and function returns helps too so you can test in steps. This technique has been invaluable to me. Fixing up the Twitch API was much easier because of it. 
+
+### Day 14: January 16, 2017
+
+**Today's Progress**: Basically only worked on Twitch today. Completely changed, basically recreated this project. 
+
+**Thoughts**: In working with Bootstrap, it seems like there are always issues that cause me trouble. Yes, perhaps the benefits outweight these, but when I am dealing with them it is very frustrating. The problem is often with some of the built in classes and styling that is applied through the library. I am anxious to learn other frameworks, and I think it is nearly time. I am excited to finish my portfolio of projects for FCC so that I can definitely dive into other things. 
+
+### Day 15: January 17, 2017
+
+**Today's Progress**: Worked on the weather app. The API was not working on github, because of the origin-access issue. It works fine when I run it locally. I decided to switch to weather underground as I had found someone else using it and it was working. However, after spending a lot of time getting that changed it was not working either. 
+
+**Thoughts**: This whole API issue has been frustrating. It didn't work on Codepen, and there were problems with all of the API projects. So it did work today when I went back to check it out, however tonight it is not working again. I have tried attaching a CORS heading to the URL request. I have tried the request as https and http both. 
+
+### Day 16: January 18, 2017
+
+**Today's Progress**: I worked on Simon today. Worked on stopping the buttons and the sounds after the start button is pressed and after the game is turned off. Had some success, but still some issues. I also fixed the weather app. I added JSONP to the API url and it worked. It still does not look very good, however. Want to improve the UI. 
+
+**Thoughts**: Had a hard time getting into it today. Watched CS50 stuff. Trying to understand pointers and dereferencing. They are strange topics. I am going to keep trying, but I have definitely hit a slow down/snag in that curriculum. Getting frustrated at my pace, feelings like it's going to be forever until I am ready. Have to remember progress and take the journey one day at a time. 
+
+### Day 17: January 19, 2017
+
+**Today's Progress**: Getting my portfolio together to submit to FCC front end certification. I got the portfolio page website made responsive. I worked on the quote machine, changing the API as I did with the weather. Got Quote generator uploaded to github. Getting very close, want everything to work and look good when submitted. 
+
+**Thoughts**: I don't want to be too much of perfectionist about this, and take too long to get it turned in. However, I also want to uphold the high standards that I am used to. I don't think that will ever change about me, and that's probably a good thing. One thing I want to be aware of is that in the "real world" there are deadlines and such, and I will need to adhere to those. However for now while I am learning I think it's a good opportunity to get everything right. Excited to move on and learn a back end technology however. 
+
+### Day 18: January 20, 2017
+
+**Today's Progress**: I spend a lot of time working on the API projects. A good portion of today was spent making the weather app look a lot better, and getting it to integrate with github. I also tried really hard to get the quote generator working once it is hosted on github. That was not working so I actually tried to host it on Amazon Web Services. I did get it hosted, and yet the API still did not work. So finally I just downloaded the object database and stored it directly in my code. While this was not ideal, it was too difficult working within Codepen and github hosting to get the API calls to work just right. I did link back to the organization that hosted the API so they get credit. 
+
+**Thoughts**: I really wanted to solve the API issue and spent quite a lot of time on it. There are two issues. One was the fact that some of the sites are in http and not https and therefore the calls will not work. They have to be secure. Then there is the CORS issues. It seems that I can deal with these and fix them sometimes, but not always. For instance, I was able to use JSONP for the weather API, and this completely fixed the issue. But some servers do not offer that. I definitely learned a lot, and I definitely still have a lot more to learn. 
+
+### Day 19: January 21, 2017
+
+**Today's Progress**: Finished the FCC certification today. I finished importing all the quotes from an API source, putting them into my code as an object rather than leave it as an API call. As noted in yesterday's log, this was the only way to solve the problem. I added a media query to scale down my SIMON game for mobile. I fixed some issues with style and layout of my projects that came up when I checked each one on a mobile view through Chrome Developer Tools. 
+
+**Thoughts**: Although I am a perfectionist, I can't say that I feel my projects were 100% as good as they could be. I spent a lot of time. I did them the first time I came to them in the curriculum, and now that I have learned more, I went back and redid basically every single project. I feel confident that I have learned a lot, probably as much and more than most people, by going through these twice and very thoroughly. But, I know there is more to learn, and I am glad to move on to more items. I want to become the best problem solver and programmer possible. 
+
+### Day 20: January 22, 2017
+
+**Today's Progress**: Started SASS on Codeacademy. Spent some time looking at CS50. Read YDKJS. Started a chess board on a web site. Going to use it to maybe help out as I learn. It will not be an AI that plays interactively, but just something that can move the pieces around and represent different game states. 
+
+**Thoughts**: Motivation was high, but after completing the free code camp front end certification, it was hard to find time to spend a lot of time coding. Time on reading the book, plus going through the lectures, videos, and shorts for CS50 doesn't leave a ton of time to code. 
+
+### Day 21: January 23, 2017
+
+**Today's Progress**: Tonight I spent some more time on the chess board webpage. I changed the board to pixel units rather than vw, which was proving too hard. I alternated colors black (actually grey) and white. I added in an object containing all the character codes for the chess pieces. Earlier today I worked on CS50 and completed the whodunit puzzle. I looked at the next one but did not start it just yet. I also did one section of SASS on CodeAcademy.
+
+**Thoughts**: Not too much today actually. 
+
+### Day 22: January 24, 2017
+
+**Today's Progress**: I worked on the next pset4 problem for CS50. Resize. I think I have all the code in place, but it needs to be debbuged. Some of the logic is off, or statements are in the wrong place, I am not sure. I am going to try to do some Sass work on CodeAcademy too. 
+
+**Thoughts**: The bitmap stuff in CS50 is really throwing me. Also, while I thought I understoof pointers and dereferencing, today I am not sure that I could correctly use them. I am trying to watch Sass videos to complement what I am learning in CodeAcademy. 
+
+### Day 23: January 25, 2017
+
+**Today's Progress**: I am staring the log early today, because I have already spent a ton of time programming for today. I worked on my chess board webpage code this morning. I started to turn all the pieces into an object, where I can read the properties and use them to populate the board. Then I turned back to CS50 to continue working on the resize problem. I was very very close, when I finally had to look up some help. Turns out I only had a minor error that was causing the problem. 
+
+**Thoughts**: I am really enjoying writing code. It's almost worrisome, because I see how I could do this for a large portion of my day. I mean, I never feel like I am getting enough done, so what worries me is how much I am going to end up working when I get a job. I have overworked all my jobs in the past, so why should this one be different? :-) I may update more later if I do more work. 
